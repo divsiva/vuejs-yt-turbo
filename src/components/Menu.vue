@@ -35,7 +35,7 @@ export default {
   data () {
     return {
       categoryArray: [
-        "All", "Food", "Travel","Art"
+        "All", "Food", "Travel","Art", "Entertainment","Courses","Tutorial","Spiritual"
       ]
     }
   }
