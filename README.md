@@ -1,35 +1,43 @@
-# yt-turbo
+# YT-turbo
+YT Turbo helps anyone to quickly organize favourite channels on you tube and list in the dashboard. It also helps to sort filter and search channels.
 
-This template should help get you started developing with Vue 3 in Vite.
+## Motivation
 
-## Recommended IDE Setup
+To learn vuejs through a prototype by building a real world application.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Technology Stack
+The following technologies has been used to build this app.
 
-## Customize configuration
+### Frontend
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- vuejs
+- tailwind
 
-## Project Setup
+### Backend
 
-```sh
-npm install
-```
+- Nodejs
+- mysql database
+- Youtube api
 
-### Compile and Hot-Reload for Development
+## App Features
+- Sign in using social provider(google, youtube).
+- Able to create new categories
+- Able to add channel to a category(supports video url or channel url)
+- Listing page 
+   - list of all the channels along with the channel banner image)
+   - Show count of recent videos for that channel
+   - Show the author name and also the subscribers count for that channel
+   - Sort by channel name, subcriber count, recent uploads(video count supports both ascending and descending)
+   - share link with others
+   
+## Page routes
+- /login
+- /channel-listing
+- /channel-details
+- /categories
 
-```sh
-npm run dev
-```
+## Todo
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- [x] Initial scope discussion
+- [x] Set up initial project in Gitub
+- 
